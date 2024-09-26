@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #343a40;
+    color: white;
+}
+.sidebar a {
+    color: white;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
